@@ -7,7 +7,7 @@
     <title>Form</title>
 </head>
 <body>
-    <form action="results.html" method="GET">
+    <form action="results.html" method="GET" enctype="multipart/form-data">
         <div>
             <label for="name">Name</label>
             <input type="text" name="name" id="name" required>
@@ -18,11 +18,11 @@
         </div>
         <div>
             <label for="age">Age</label>
-            <input type="number" name="age" id="age" min="1" max="200" step="5">
+            <input type="number" name="age" id="age" min="1" max="200" step="1">
         </div>
         <div>
             <label for="date">Birthdate</label>
-            <input type="date" name="date" id="date" min="2021-08-01">
+            <input type="date" name="date" id="date" min="2000-01-01">
         </div>
         <div>
             Favorite Food
